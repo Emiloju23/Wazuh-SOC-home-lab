@@ -1,27 +1,25 @@
-</> Markdown
-# ubuntu security Hardening script
-## project overview
-This project is a Bash-based security auditing tool for ubuntu Linux.
-The script performs basic security checks including:
-- Firewall status
-- Listening network ports
-- Failed login attempts
-- Available system updates
-- Disk usage
-- Logged-in-users
+wazuh-soc-home-lab
 
-## Technologies Used
+      README.md
+      architecture/
+          wazuh-lab-architecture.png
 
-- Ubuntu Linux
-- Bash
-- UFW
-- ss
-- journalctl
-- Git
-- Github
 
-## How to Run
-clone the repository:
+         documentation/
+                installation.md
+                configuration.md
+                detection.md
+         
+           screenshots/
+                 wazuh-dashboard.png
+                 agents.png
+                 alerts.png
 
-'''bash
-git clone <repository-url>
+
+            rules/
+              custom-rules.xml
+
+            reports/
+               incident-report.md
+
+
